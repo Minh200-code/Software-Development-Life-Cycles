@@ -1,0 +1,39 @@
+.admin-container {
+  display: flex;
+  margin-top: 70px;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h4 {
+  color: #ffc107;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+  transform: translateX(5px);
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fa;
+}
